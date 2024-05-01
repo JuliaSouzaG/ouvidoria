@@ -1,0 +1,25 @@
+INTRUÇÕES PARA INICIAR O PROJETO COM LARAVEL
+
+INSTALAR O PHP 8.2
+INSTALAR O COMPOSER 2.6.5 
+INSTALAR O LARAVEL 10 --- composer create-project --prefer-dist laravel/laravel sis-ouvidoria "10.0"
+
+INICIAR O PROJETO LARAVEL:
+composer create-project laravel/laravel nome_do_projeto
+
+Ao fazer o clone do projeto do repositório git, o arquivo virá sem a pasta vendor e
+sem o arquivo .env , para adicioná-los deve-se fazer o seguinte:
+
+composer install -- instala as dependências
+
+Duplicar o arquivo '.env.example' e renomear para '.env'
+
+O arquivo '.env' necessita de uma chave 'APP_KEY' que não pode ser reutilizada de outro.
+Para Gerar a chave:
+php artisan key:generate.
+Dúvidas , verificar em: https://www.youtube.com/watch?v=-aTrpXStcM4
+
+PARA INICIAR O SERVER INTERNO DO LARAVEL
+php artisan serve -- dentro da raiz do projeto
+
+php artisan make:controller nome_do_controller -- cria um novo controller
