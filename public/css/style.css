@@ -1,0 +1,101 @@
+.bg-dark-blue {
+    background-color: #1E3357;
+}
+
+.link-text {
+    font-size: 15px;
+}
+
+.title-color {
+    color: #767474;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 14px;
+}
+
+.form-color {
+    background-color: #ffffff;
+}
+
+.text-tiny {
+    font-size: 12px;
+}
+
+.btn-padrao {
+    --bs-btn-color: #20AEC1;
+    --bs-btn-border-color: #20AEC1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #20AEC1;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-bg: white;
+    --bs-btn-disabled-color: white;
+    --bs-btn-disabled-bg: #20AEC1;
+    --bs-btn-disabled-border-color: white;
+    --bs-btn-disabled-opacity: 1;
+    --bs-btn-font-weight: 500;
+}
+
+.img-nav {
+    width: 50px;
+}
+
+@media (max-width: 900px) {
+    .descricao-cel {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+    .btn-cel {
+        font-size: 12px;
+        padding: 2px;
+        width: 70px;
+    }
+}
+
+/* footer */
+.pin-red {
+    color: red;
+}
+
+.pin-green {
+    color: rgb(9, 153, 9);
+}
+
+.rodape {
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-size {
+    width: 150px;
+}
+
+.logo-ssp {
+    width: 100px;
+}
+
+.pin-blue {
+    color: rgb(62, 62, 255);
+}
+
+.link-a {
+    color: white;
+    text-decoration: none;
+}
+
+.link-a:hover {
+    color: #929292;
+}
+
+.icon-ssp {
+    width: 80px;
+}
+
+/* cadastro adm */
+.olho {
+    cursor: pointer;
+    color: #535353;
+}

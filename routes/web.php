@@ -5,22 +5,23 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 
 
+// Rotas do menu
+Route::get('/',[\App\Http\Controllers\HomeController::class, 'home'])->name('home'); 
 
-Route::get('/',[\App\Http\Controllers\HomeController::class, 'home']); 
+Route::get('/cadastro', [\App\Http\Controllers\CadastroAdminController::class,'cadastro'])->name('cadastro');
 
-Route::get('/cadastro', [\App\Http\Controllers\CadastroAdminController::class,'cadastro']);
+// Home
+Route::get('/elogios', [\App\Http\Controllers\ElogiosController::class, 'elogios'])->name('elogios');
 
-Route::get('/elogios', [\App\Http\Controllers\ElogiosController::class, 'elogios']);
+Route::get('/solicitacoes', [\App\Http\Controllers\SolicitacoesController::class, 'solicitacoes'])->name('solicitacoes');
 
-Route::get('/solicitacoes', [\App\Http\Controllers\SolicitacoesController::class, 'solicitacoes']);
+Route::get('/reclamacoes', [\App\Http\Controllers\ReclamacoesController::class, 'reclamacoes'])->name('reclamacoes');
 
-Route::get('/reclamacoes', [\App\Http\Controllers\ReclamacoesController::class, 'reclamacoes']);
+Route::get('/sugestoes', [\App\Http\Controllers\SugestoesController::class, 'sugestoes'])->name('sugestoes');
 
-Route::get('/sugestoes', [\App\Http\Controllers\SugestoesController::class, 'sugestoes']);
+Route::get('/denuncias', [\App\Http\Controllers\DenunciasController::class, 'denuncias'])->name('denuncias');
 
-Route::get('/denuncias', [\App\Http\Controllers\DenunciasController::class, 'denuncias']);
-
-Route::get('/feedback', [\App\Http\Controllers\FeedbackController::class, 'feedback']);
+Route::get('/feedback', [\App\Http\Controllers\FeedbackController::class, 'feedback'])->name('feedback');
 
 //simulando envio de parametros
 Route::get(
