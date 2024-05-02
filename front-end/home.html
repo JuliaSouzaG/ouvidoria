@@ -15,15 +15,28 @@
     .logo-home {
         width: 120px;
     }
-    /* .container-size {
-        width: 35%;
-        height: 500px;
-    } */
+
+    .btn-blue {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #009DB2;
+        --bs-btn-border-color: #009DB2;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #007e8f;
+        --bs-btn-hover-border-color: #007e8f;
+        --bs-btn-focus-shadow-rgb: 60, 153, 110;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #009DB2;
+        --bs-btn-active-border-color: #009DB2;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: #009DB2;
+        --bs-btn-disabled-border-color: #1009DB2;
+    }
 </style>
 
 <body>
 
-    <!-- Rodape -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark-blue text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -64,6 +77,38 @@
             <hr class="w-50 mx-auto">
         </div>
 
+        <div class="container mb-5 text-light text-center w-75">
+            <div class="row d-flex justify-content-between">
+                <div class="bg-dark-blue p-3 rounded-4 col-12 col-md-6 col-xl-5 mb-2">
+                    <p class="mt-4"><b>Conheça também o Fala.Br</b></p>
+                    <p class="mb-5">Plataforma Integrada de Ouvidoria e Acesso à Informação</p>
+                    <img src="img/falabr-icon.svg" alt="" class="mb-5"><br>
+                    <a href="https://falabr.cgu.gov.br/web/home" class="btn btn-success mb-4">Clique aqui e acesse</a>
+                </div>
+                <div class="bg-dark-blue p-3 rounded-4 col-12 col-md-6 col-xl-5 mb-2">
+                    <p class="mt-2"><b>Área do cidadão</b></p>
+                    <p>Acesse uma das opções para fazer, Reclamações, Denúncias Anônimas, Sugestões, Solicitações ou
+                        Elogios. </p>
+                    <div class="row col-12 col-md-6 mx-auto">
+                        <a href="reclamacao.html" class="btn btn-blue mb-3">Reclamação</a>
+                        <a href="denuncia.html" class="btn btn-blue mb-3">Denúncia</a>
+                        <a href="sugestao.html" class="btn btn-blue mb-3">Sugestão</a>
+                        <a href="solicitacao.html" class="btn btn-blue mb-3">Solicitação</a>
+                        <a href="solicitacao.html" class="btn btn-blue mb-2">Elogio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- <main class="p-3 mt-3">
+        <div class="titulo text-center mb-5">
+            <img src="img/logo_ouvidoria-sem_fundo.png" alt="" class="mb-2 logo-home">
+            <h3>Ouvidoria Geral do Estado do Amazonas</h3>
+            <hr class="w-50 mx-auto">
+        </div>
+
         <div class="container d-flex justify-content-between align-items-center flex-wrap mb-5 w-75">
             <div class="bg-dark-blue text-light text-center p-3 rounded-4 container-size">
                 <p class="mt-4"><b>Conheça também o Fala.Br</b></p>
@@ -76,20 +121,20 @@
                 <p>Acesse uma das opções para fazer, Reclamações, Denúncias Anônimas, Sugestões, Solicitações ou
                     Elogios. </p>
                 <div class="row col-12 col-md-4 mx-auto mb-2">
-                    <a href="" class="btn btn-success mb-3">Reclamação</a>
-                    <a href="" class="btn btn-success mb-3">Denúncia</a>
-                    <a href="" class="btn btn-success mb-3">Sugestão</a>
-                    <a href="" class="btn btn-success mb-3">Solicitação</a>
-                    <a href="" class="btn btn-success mb-3">Elogio</a>
+                    <a href="reclamacao.html" class="btn btn-success mb-3">Reclamação</a>
+                    <a href="denuncia.html" class="btn btn-success mb-3">Denúncia</a>
+                    <a href="sugestao.html" class="btn btn-success mb-3">Sugestão</a>
+                    <a href="solicitacao.html" class="btn btn-success mb-3">Solicitação</a>
+                    <a href="solicitacao.html" class="btn btn-success mb-3">Elogio</a>
                 </div>
 
             </div>
         </div>
 
-    </main>
+    </main> -->
 
     <!-- Rodape -->
-    <footer class="bg-dark-blue p-3 rodape text-light">
+    <footer class="bg-dark-blue p-3 rodape text-light mt-5">
 
         <div class="container d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap">
             <div class="me-5">
